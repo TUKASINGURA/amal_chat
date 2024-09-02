@@ -83,10 +83,16 @@ class _LoginPageState extends State<SigninPage> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          "Welcome",
-          style: TextStyle(
-              color: myColor, fontSize: 32, fontWeight: FontWeight.w500),
+        Center(
+          child: Text(
+            "Welcome Back!! to  Amal_chat",
+            style: TextStyle(
+                color: myColor, fontSize: 32, fontWeight: FontWeight.w500),
+          ),
+        ),
+        const Text(
+          "Sign in using your social account or email to continue Enjoying our services smoothly ",
+          style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
         ),
         _buildGreyText("Please login with your information"),
         const SizedBox(height: 60),

@@ -25,7 +25,7 @@ class SplashScreen extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.only(top: 100.0),
               child: Text(
-                'Connect friends easily & quickly',
+                'Connect with friends easily & quickly',
                 style: TextStyle(fontSize: 40, color: Colors.white),
                 textAlign: TextAlign.center,
               ),
@@ -39,9 +39,9 @@ class SplashScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 20),
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children: [
                 Image(
                   image: AssetImage('assets/facebook.png'),
                   height: 40,
